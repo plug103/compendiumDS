@@ -1,0 +1,55 @@
+Assignment Templates - Not implemented
+Essential. But I am happy to look at this as part of the startup screen? Or we can also consider this as file resources on the website. But see deployment below.
+
+What size is my assignment?
+Important. Students do need to check their TMA size for the eTMA system. But they can (at a push) do this by inspecting the exported file. Preference is to be able to show this in the software.
+
+Zoom - Not implemented
+I honestly have no sense of whether students use this. I suspect for accessibility it would be good but at level 1 we do try to restrict the templates to reasonable size that doesnt seem to need this function. I’d say medium importance but I’d check on accessibility.
+
+Arrange - Not implemented
+Low-medium. There are some people who like it. And there are others who don’t care. I am terrified of it in case it screws up how I’ve arranged nodes.
+
+Align - Not implemented
+As Arrange. 
+
+Search - Not implemented
+Low. Searching gin Compendium is more of a spatial memory thing. Again, it might be worth checking for accessibility?
+
+Undo  - Currently works only on text
+No - this has to work differently. We have yet to detail this out but it currently does not behave as most users would expect software to behave. 
+Undo needs to work:
+After a node has been deleted
+After a node has been placed
+After a node has been moved
+After an arrow has been created
+After an arrow has been edited
+After a node title has ben changed (if this is still done directly)
+? After an action in a sub-map which is then closed ???  I’d say sub map opens and undo operates; sub-map remains open. Thoughts anyone?
+But not after the text in a node has been edited and the node closed.
+
+
+Redo - Currently works only on text
+As undo. But the opposite… 
+
+Copy and Paste Nodes
+Medium - it is useful for some shapes of blank nodes (e.g. decision mini-maps).
+
+Spellchecker and word count
+High, bordering on essential. (To the point of being more important than rich text support) The word count matters too. Very much.
+
+
+Deployment.
+
+CompendiumDS will be open software and has to be able to be reused in other modules. I can see that happening in two ways:
+
+LTI / IMDs prepare a deployable package with a Module Team - to package up icons, templates, etc.
+The software is deployable by Module Teams, as above, with clearer interfaces to the deployable items
+
+My feeling is that option 1 is the most likely but this will still have to be an open solution - i.e. one that a reasonably competent hAxx0r can manipulate as an OER.
+
+That also means that both are build time solutions - students cannot change the icon set. That’s ok but it is important that we make allowance for this to happen in future deployments. If we have time to spare (even just on the design side…) it would be nice to look at how this might work (e.g. rolling up icon sets on the LHS :) ).
+
+Rotate image
+
+This might or might not be an issue - rotating images using exif data is browser dependent. It causes loads of grief in OpenStudio and I am not sure how our browser will handle images like this (this is mostly *****y iPhone photos where rotated (portrait) images have incorrect exif data.
